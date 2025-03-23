@@ -11,10 +11,9 @@ const Header = () => {
         <div className="text-white mt-10">
           <h1 className="text-balance text-5xl font-bold">SARKARIEXAMTRICKS</h1>
           <span className="m-20 border-b-2 border-dotted">
-            {" "}
-            <a href="/">
-              <i class="fa-solid fa-magnifying-glass"></i>{" "}
-              WWW.SARKARIEXAMTRICKS.COM
+            <a href="https://sarkariexamtricks.com/">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              WWW.Sarkariexamtricks.com
             </a>
           </span>
         </div>
