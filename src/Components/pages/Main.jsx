@@ -30,28 +30,28 @@ const Main = () => {
 
       <p className="text-center font-semibold text-xl pr-10 pl-10">
         <a
-          href="https://play.google.com/store/apps/details?id=com.app.app14f269771c01"
+          href="https://sarkariexamtricks.com/"
           className="text-blue-700 border-b-2 border-blue-700"
         >
           Sarkari Result Android Apps
         </a>
 
         <a
-          href="https://www.youtube.com/c/SarkariResultOfficial"
+          href="https://sarkariexamtricks.com/"
           className="text-blue-700 border-b-2 border-blue-700"
         >
           Sarkari Result Youtube Channel
         </a>
 
         <a
-          href="https://itunes.apple.com/us/app/sarkari-result/id1051363935?ls=1&mt=8"
+          href="https://sarkariexamtricks.com/"
           className="text-blue-700 border-b-2 border-blue-700"
         >
           Sarkari Result Apple / IOS Apps
         </a>
 
         <a
-          href="https://www.instagram.com/sarkariresult.comofficial/"
+          href="https://sarkariexamtricks.com/"
           className="text-blue-700 border-b-2 border-blue-700"
         >
           Follow Instagram
@@ -62,21 +62,21 @@ const Main = () => {
         <marquee behavior="alternate" direction="onscreen">
           <p className="pt-1">
             <a
-              href="https://www.sarkariresult.com/2024/ctet-july-2024/"
+              href="https://sarkariexamtricks.com/"
               className="text-blue-700 border-b-2 border-blue-700"
             >
               CTET Result July 2024
             </a>
 
             <a
-              href="https://www.sarkariresult.com/2024/ipr-mts-aug24/"
+              href="https://sarkariexamtricks.com/"
               className="text-blue-700 border-b-2 border-blue-700"
             >
               IPR RES MTS Online Form 2024
             </a>
 
             <a
-              href="https://www.sarkariresult.com/2024/up-neet-ug-2024/"
+              href="https://sarkariexamtricks.com/"
               className="text-blue-700 border-b-2 border-blue-700"
             >
               MP CPCT Online Form 2024
@@ -86,21 +86,21 @@ const Main = () => {
         <marquee behavior="alternate" direction="onscreen">
           <p className="pt-1">
             <a
-              href="https://www.sarkariresult.com/hssc/hssc-primary-teacher-05-2024/"
+              href="https://sarkariexamtricks.com/"
               className="text-blue-700 border-b-2 border-blue-700"
             >
               HSSC Primary Teacher Online Form 2024
             </a>
 
             <a
-              href="https://www.sarkariresult.com/2024/upbed-2024/"
+              href="https://sarkariexamtricks.com/"
               className="text-blue-700 border-b-2 border-blue-700"
             >
               UPBED 2024 Online Counselling
             </a>
 
             <a
-              href="https://www.sarkariresult.com/2024/up-neet-ug-2024/"
+              href="https://sarkariexamtricks.com/"
               className="text-blue-700 border-b-2 border-blue-700"
             >
               UP NEET UG Online Counselling 2024
@@ -111,21 +111,21 @@ const Main = () => {
         <marquee behavior="alternate" direction="onscreen">
           <p className="pt-1">
             <a
-              href="https://www.sarkariresult.com/2023/up-police-constable-dec23/"
+              href="https://sarkariexamtricks.com/"
               className="text-blue-700 border-b-2 border-blue-700"
             >
               UP Police UPP Constable Exam City Details 2024
             </a>
 
             <a
-              href="https://www.sarkariresult.com/jharkhand/jssc-stenographer-jssce-2024/"
+              href="https://sarkariexamtricks.com/"
               className="text-blue-700 border-b-2 border-blue-700"
             >
               JSSC Stenographer Online Form 2024
             </a>
 
             <a
-              href="https://www.sarkariresult.com/railway/rrc-cr-apprentices-july24/"
+              href="https://sarkariexamtricks.com/"
               className="text-blue-700 border-b-2 border-blue-700"
             >
               RRC CR Apprentices Online Form 2024
