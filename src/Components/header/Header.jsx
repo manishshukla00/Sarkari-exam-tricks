@@ -3,7 +3,7 @@ import logo from "../../images/logo.png";
 
 const Header = () => {
   return (
-    <header className=" bg-customRed  relative h-48 flex p-8">
+    <header className=" bg-orange-800  relative h-48 flex p-8">
       <div className="flex items-center">
         <img className="rounded-full" width={200} src={logo} alt="" />
       </div>

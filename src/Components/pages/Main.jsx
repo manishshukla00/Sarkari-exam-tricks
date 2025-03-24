@@ -1,7 +1,7 @@
 import React from "react";
 import Result from "./Result";
 import AdmitCard from "./AdmitCard";
-import LatestJobs from "./LatestJobs";
+import LatestJobs from "./latest-jobs/LatestJobs";
 import AnswerKey from "./AnswerKey";
 import Syllabus from "./Syllabus";
 import Admission from "./Admission";
@@ -18,13 +18,13 @@ const Main = () => {
           <a href="/" className="text-blue-700 ">
             <i class="fa-solid fa-magnifying-glass"></i>
             <span className="border-b-2 border-dotted border-blue-700">
-              Sarkari Result : SarkariResult.Com
+              Sarkari Result : Sarkariexamtricks.Com
             </span>
           </a>
-          Sarkari Naukri Latest Jobs Online From at Sarkari Result 2024
+          Sarkari Naukri Latest Jobs Online From at Sarkari Result 2025
         </p>
         <p className="text-red-700 pt-3 ">
-          Welcome to No. 1 Education Portal Sarkari Result 2024
+          Welcome to No. 1 Education Portal Sarkari exam tricks 2025
         </p>
       </div>
 
