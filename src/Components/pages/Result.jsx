@@ -1,140 +1,51 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+const results = [
+  { text: "UP Police Constable Result 2024", link: "/" },
+  { text: "AFMC Medical Officer Result 2024", link: "/" },
+  { text: "SEBI Assistant Manager Phase II Result 2024", link: "/" },
+  { text: "NTA UGC NET June 2024 Result", link: "/" },
+  { text: "Bihar BSEB Sakshamta Pariksha II Result 2024", link: "/" },
+  { text: "UP Police Constable Exam Result 2024", link: "/" },
+  { text: "BSSC Inter Level Exam Result 2024", link: "/" },
+  { text: "UPSSSC Instructor 2022 Final Result", link: "/" },
+  { text: "UKPSC Sub Inspector PET / PST Result 2024", link: "/" },
+  { text: "Jharkhand JSSC Graduate Level Re Exam Result 2024", link: "/" },
+  { text: "NIELIT CCC Result August 2024 Exam", link: "/" },
+  { text: "JSSC Excise Constable PET Result 2024", link: "/" },
+  { text: "IBPS Clerk 14th Pre Exam Result 2024", link: "/" },
+  { text: "UPSSSC VDO 2018 Final Result", link: "/" },
+  {
+    text: "RSMSSB Supervisor, Hostel Superintendent Result 2024",
+    link: "/",
+  },
+];
 
 const Result = () => {
   return (
-    <div className="w-auto border-2 flex justify-center border-borderColor m-auto">
+    <div className="m-auto flex justify-center border-2 border-borderColor h-auto">
       <div>
         <h3 className="text-2xl font-semibold bg-customRed text-center text-white p-1">
-          Result
+          Results
         </h3>
-        <ul className="list-disc list-inside pl-6 text-start">
-          <li>
-            <a className="text-blue-800" href="/">
-              SSC Junior Engineer JE Paper | Result 2024{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              Bihar Police BPSSC Sub Inspector 2023 Marksheet{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              India Post GDS Result / First Merit List 2024{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              UPSC Geo Scientist 2024 Mains Result{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              NTA ICAR AIEEA PG / Phd Entrance Result with Score Card 2024{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              UPSC ESIC Nursing Officer Result 2024
-            </a>{" "}
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              UPPSC Revised Exam Calendar 2024{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              UPSC EPFO AO/EO Final Result 2024{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              UP ITI Admissions 2024 First Allotment Result{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              NTA NCET 2024 Result with Score Card{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              UPSSSC Gram Vikas Adhikari VDO 2018 Supplementary Result
-            </a>{" "}
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              Navy Agniveer SSR / MR 02/2024 Result
-            </a>{" "}
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              UPSC CMS 2024 Result Name Wise
-            </a>{" "}
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              MPESB ADDET Entrance Exam Result 2024
-            </a>{" "}
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              SEBI Assistant Manager Phase I Result 2024{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              Oriental Insurance OICL AO Phase I Result 2024{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              UP Police Assistant Operator 2022 Result{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              UP Police Workshop Staff 2022 Result{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              MP Board Class 10th, 12th Time Table 2025
-            </a>{" "}
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              MP Pre Agriculture Test PAT Result 2024{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              Rajju Bhaiya University PRSU CET Result 2024{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              ISRO URSC Result 2024
-            </a>{" "}
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              CBSE Board Class 10th Supplementary Result 2024{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              Allahabad University Non Teaching Various Post Result 2024{" "}
-            </a>
-          </li>
-          <li>
-            <a className="text-blue-800" href="/">
-              CBSE Board Class 12th Supplementary Result 2024{" "}
-            </a>
-          </li>
+        <ul className="list-disc list-inside pl-5">
+          {results.map((item, index) => (
+            <li key={index}>
+              <Link className="text-blue-800" to={item.link}>
+                {item.text}
+              </Link>
+            </li>
+          ))}
         </ul>
-        {/* <span className='font-bold border-b-2 border-blue-700 text-blue-700' >View More</span> */}
+        <div className="text-center mt-4">
+          <Link
+            to="/results"
+            className="font-bold border-b-2 border-blue-700 text-blue-700"
+          >
+            Read More
+          </Link>
+        </div>
       </div>
     </div>
   );

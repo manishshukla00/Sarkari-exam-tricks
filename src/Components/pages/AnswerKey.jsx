@@ -2,7 +2,7 @@ import React from "react";
 
 const AnswerKey = () => {
   return (
-    <div className="m-auto border-2 flex justify-center border-borderColor row-span-1 col-span-1">
+    <div className="w-auto m-auto border-2 flex justify-center border-borderColor row-span-1 col-span-1">
       <div>
         <h3 className="text-2xl font-semibold bg-customRed text-center text-white p-1">
           Answer Key

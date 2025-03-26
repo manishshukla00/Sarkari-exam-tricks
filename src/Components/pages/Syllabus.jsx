@@ -4,7 +4,7 @@ const Syllabus = () => {
   return (
     <div className="m-autoT border-2 flex justify-center border-borderColor row-span-1 col-span-1">
       <div>
-        <h3 className="text-2xl font-semibold bg-customRed text-center text-white p-1">
+        <h3 className="w-full text-2xl font-semibold bg-customRed text-center text-white p-1">
           Syllabus
         </h3>
         <ul className="list-disc list-inside pl-6">
