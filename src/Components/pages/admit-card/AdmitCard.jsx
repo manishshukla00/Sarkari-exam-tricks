@@ -1,35 +1,35 @@
 import React, { useState } from "react";
-import Data from "./Data";
+import admitCardList from "./Data";
 import { Link } from "react-router-dom";
 
-const LatestJobs = () => {
-  const [visibleJobs, setVisibleJobs] = useState(15);
+const AdmitCard = () => {
+  const [visibleCards, setVisibleCards] = useState(15);
 
   // Function to format the title for the URL
-  const formatTitleForURL = (title) => title.toLowerCase().replace(/ /g, "-");
+  const formatTitleForURL = (title) =>
+    title ? title.toLowerCase().replace(/ /g, "-") : "";
 
   return (
     <div className="m-auto border-2 flex justify-center border-borderColor">
       <div>
         <h3 className="text-2xl font-semibold bg-customRed text-center text-white p-1">
-          Latest Jobs
+          Admit Cards
         </h3>
         <ul className="list-disc list-inside pl-6">
-          {Data.slice(0, visibleJobs).map((job) => (
-            <li key={job.id}>
-              {/* Updated route path */}
+          {admitCardList.slice(0, visibleCards).map((card) => (
+            <li key={card.id}>
               <Link
-                to={`/latestJob/${formatTitleForURL(job.title)}`}
+                to={`/admitCard/${formatTitleForURL(card.text)}`}
                 className="text-blue-800"
               >
-                {job.title}
+                {card.text}
               </Link>
             </li>
           ))}
         </ul>
-        {visibleJobs < Data.length && (
+        {visibleCards < admitCardList.length && (
           <button
-            onClick={() => setVisibleJobs(visibleJobs + 10)}
+            onClick={() => setVisibleCards(visibleCards + 10)}
             className="font-bold border-b-2 border-blue-700 text-blue-700 ml-20"
           >
             Read More
@@ -40,4 +40,4 @@ const LatestJobs = () => {
   );
 };
 
-export default LatestJobs;
+export default AdmitCard;

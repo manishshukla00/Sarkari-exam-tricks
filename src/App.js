@@ -4,11 +4,13 @@ import Navbar from "./Components/navbar/Navbar";
 import LatestJobs from "./Components/pages/latest-jobs/LatestJobs.jsx";
 import Main from "./Components/pages/Main.jsx";
 import { Route, Routes } from "react-router-dom";
-import Result from "./Components/pages/Result.jsx";
-import AdmitCard from "./Components/pages/AdmitCard.jsx";
-import AnswerKey from "./Components/pages/AnswerKey.jsx";
-import Syllabus from "./Components/pages/Syllabus.jsx";
+import Result from "./Components/pages/result/Result.jsx";
+import AdmitCard from "./Components/pages/admit-card/AdmitCard.jsx";
+import AnswerKey from "./Components/pages/answerKey/AnswerKey.jsx";
+import Syllabus from "./Components/pages/syllabus/Syllabus.jsx";
 import ContactUs from "./Components/pages/ContactUs.jsx";
+import ResultForm from "./Components/pages/result/ResultForm.jsx";
+import AdmitCardForm from "./Components/pages/admit-card/AdmitCardForm.jsx";
 
 function App() {
   return (
@@ -19,11 +21,13 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/latestjobs" element={<LatestJobs />} />
         <Route path="/result" element={<Result />} />
+        <Route path="/result/:title" element={<ResultForm />} />
         <Route path="/admitcard" element={<AdmitCard />} />
+        <Route path="/admitCard/:title" element={<AdmitCardForm />} />
         <Route path="/answerkey" element={<AnswerKey />} />
         <Route path="/syllabus" element={<Syllabus />} />
         <Route path="/contactUs" element={<ContactUs />} />
-        <Route path="/exam-detail" element={<Form />} />
+        <Route path="/latestJob/:title" element={<Form />} />
       </Routes>
     </>
   );
