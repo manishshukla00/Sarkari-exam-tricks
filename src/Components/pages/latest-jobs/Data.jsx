@@ -1,19 +1,47 @@
 const jobList = [
-  { id: 1, title: "Navy Agniveer SSR MR INET 2025 Online Form" },
-  { id: 2, title: "IRDAI Assistant Manager Online Form 2024" },
-  { id: 3, title: "CISF Constable / Fire Online Form" },
-  { id: 4, title: "IBPS PO 14th Online Form 2024 Extended" },
-  { id: 5, title: "Jharkhand TET JHTET Online Form Extended" },
-  { id: 6, title: "PGCIL Apprentices Online Form 2024" },
-  { id: 7, title: "Nainital Bank PO & Other Post Online Form 2024" },
-  { id: 8, title: "Supreme Court Junior Court Attendant Online Form 2024" },
-  { id: 9, title: "Airforce Agniveer Non Combatant Recruitment 2024" },
-  { id: 10, title: "Railway RRB Paramedical Post Online Form 2024" },
-  { id: 11, title: "RRC NR Delhi Apprentices Online Form 2024" },
-  { id: 12, title: "Jharkhand Sachivalaya JSSC Stenographer Online Form 2024" },
-  { id: 13, title: "Haryana HSSC Primary Teacher PRT Online Form 2024" },
-  { id: 14, title: "JSSC Intermediate Level Online Form 2024" },
-  { id: 15, title: "Allahabad High Court Research Officer Online Form 2024" },
+  {
+    id: 2,
+    title: "Software Engineer",
+    postName: "Backend Developer",
+    eligibility: "B.E./B.Tech in Computer Science or related field",
+    vacancy: "50",
+    importantDates: [
+      { label: "Application Begin", value: "01/04/2025" },
+      { label: "Last Date to Apply", value: "15/04/2025" },
+    ],
+    applicationFee: [
+      { label: "General", value: "500/-" },
+      { label: "SC/ST", value: "300/-" },
+    ],
+    howToApply: [
+      "Visit the official site.",
+      "Complete the registration form.",
+      "Upload required documents.",
+      "Pay the fee and submit.",
+    ],
+  },
+  {
+    id: 1,
+    title: "Data Analyst",
+    postName: "Junior Data Analyst",
+    eligibility:
+      "Bachelor’s degree in Statistics, Mathematics, or related field",
+    vacancy: "30",
+    importantDates: [
+      { label: "Application Begin", value: "05/04/2025" },
+      { label: "Last Date to Apply", value: "25/04/2025" },
+    ],
+    applicationFee: [
+      { label: "General", value: "600/-" },
+      { label: "SC/ST", value: "400/-" },
+    ],
+    howToApply: [
+      "Register on the portal.",
+      "Enter academic details.",
+      "Upload scanned documents.",
+      "Print final submitted form.",
+    ],
+  },
 ];
 
 export default jobList;

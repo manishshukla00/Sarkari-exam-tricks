@@ -1,4 +1,3 @@
-import Form from "./Components/examDetail/Form.jsx";
 import Header from "./Components/header/Header";
 import Navbar from "./Components/navbar/Navbar";
 import LatestJobs from "./Components/pages/latest-jobs/LatestJobs.jsx";
@@ -11,6 +10,7 @@ import Syllabus from "./Components/pages/syllabus/Syllabus.jsx";
 import ContactUs from "./Components/pages/ContactUs.jsx";
 import ResultForm from "./Components/pages/result/ResultForm.jsx";
 import AdmitCardForm from "./Components/pages/admit-card/AdmitCardForm.jsx";
+import LatestJobForm from "./Components/pages/latest-jobs/LatestJobForm.jsx";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <Route path="/answerkey" element={<AnswerKey />} />
         <Route path="/syllabus" element={<Syllabus />} />
         <Route path="/contactUs" element={<ContactUs />} />
-        <Route path="/latestJob/:title" element={<Form />} />
+        <Route path="/latestJob/:title" element={<LatestJobForm />} />
       </Routes>
     </>
   );
